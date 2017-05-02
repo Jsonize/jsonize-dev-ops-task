@@ -1,0 +1,21 @@
+{
+	"name": "jsonize-dev-ops-task",
+	"description": "Jsonize Dev Ops Task",
+	"version": "0.0.1",
+	"author": "Foodji",
+	"repository": "https://github.com/jsonize/jsonize-dev-ops-task",
+	"license": "Apache-2.0",
+    "engines": {
+	    "node": ""
+ 	},
+ 	"main": "index.js",
+ 	"dependencies": {
+    	"js-devops": "~0.0.1"
+ 	},
+	"devDependencies": {
+		"grunt": "",
+        "grunt-node-qunit": "",
+        "qunit": "",
+        "grunt-contrib-jshint": ""
+	}
+}
