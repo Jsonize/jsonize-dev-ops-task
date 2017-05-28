@@ -4,7 +4,7 @@ var jsdevops = require('js-devops');
 Scoped.define("jsonize:JsonizeDevOpsDF", ["jsonize:AbstractJsonizeTask", "jsonize:JsonizeTaskRegistry"], function (Class, TaskRegistry, scoped) {
 	var Cls = Class.extend({scoped: scoped}, {
 		_run: function (payload) {
-			return jsdevops.df(payload.source);
+			return jsdevops.df();
 		}
 	});
 	TaskRegistry.register("devops/df", Cls);
@@ -14,7 +14,7 @@ Scoped.define("jsonize:JsonizeDevOpsDF", ["jsonize:AbstractJsonizeTask", "jsoniz
 Scoped.define("jsonize:JsonizeDevOpsIWList", ["jsonize:AbstractJsonizeTask", "jsonize:JsonizeTaskRegistry"], function (Class, TaskRegistry, scoped) {
     var Cls = Class.extend({scoped: scoped}, {
         _run: function (payload) {
-            return jsdevops.iwlist(payload.source);
+            return jsdevops.iwlist(payload.adapter);
         }
     });
     TaskRegistry.register("devops/iwlist", Cls);

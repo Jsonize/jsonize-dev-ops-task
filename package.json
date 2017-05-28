@@ -1,7 +1,7 @@
 {
 	"name": "jsonize-dev-ops-task",
 	"description": "Jsonize Dev Ops Task",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"author": "Foodji",
 	"repository": "https://github.com/jsonize/jsonize-dev-ops-task",
 	"license": "Apache-2.0",
