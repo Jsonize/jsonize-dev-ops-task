@@ -1,7 +1,7 @@
 {
 	"name": "jsonize-dev-ops-task",
 	"description": "Jsonize Dev Ops Task",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"author": "Foodji",
 	"repository": "https://github.com/jsonize/jsonize-dev-ops-task",
 	"license": "Apache-2.0",
@@ -10,7 +10,7 @@
  	},
  	"main": "index.js",
  	"dependencies": {
-    	"js-devops": "~0.0.2"
+    	"js-devops": "~0.0.4"
  	},
 	"devDependencies": {
 		"grunt": "",

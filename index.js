@@ -50,3 +50,13 @@ Scoped.define("jsonize:JsonizeDevOpsDockerPS", ["jsonize:AbstractJsonizeTask", "
     TaskRegistry.register("devops-dockerps", Cls);
     return Cls;
 });
+
+Scoped.define("jsonize:JsonizeDevOpsReboot", ["jsonize:AbstractJsonizeTask", "jsonize:JsonizeTaskRegistry"], function (Class, TaskRegistry, scoped) {
+    var Cls = Class.extend({scoped: scoped}, {
+        _run: function (payload) {
+            return jsdevops.reboot();
+        }
+    });
+    TaskRegistry.register("devops-reboot", Cls);
+    return Cls;
+});
